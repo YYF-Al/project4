@@ -1,0 +1,20 @@
+	float a,b,c;
+	int m,n ;
+	char d;
+
+	while(1){
+	printf("\n");
+	scanf("%f%c%f",&a,&d,&b);
+	system("cls");
+	switch(d){
+		case '+':printf("%f+%f=%f",a,b,a+b);break;
+		case '-':printf("%f-%f=%f",a,b,a-b);break;
+		case '*':printf("%f*%f=%f",a,b,a*b);break;
+		case '/':printf("%f/%f=%f",a,b,a/b);break;
+		case '%':
+		    m = a;
+		    n = b;
+	        printf("%d/%d=%d...%d",m,n,m/n,m%n);
+		    break;
+}
+	}
